@@ -226,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/radish:system/bin/radish \
     vendor/wileyfox/crackling/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/wileyfox/crackling/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/wileyfox/crackling/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
     vendor/wileyfox/crackling/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/crackling/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/wileyfox/crackling/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
