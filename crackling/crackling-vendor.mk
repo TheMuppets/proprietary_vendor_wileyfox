@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
     libqmi
 
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
