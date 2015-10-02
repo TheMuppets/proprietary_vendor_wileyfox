@@ -36,7 +36,21 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
+    libdiag \
+    libdsutils \
+    libidl \
+    libmdmdetect \
+    libqcci_legacy \
+    libqmi \
+    libqmi_client_qmux \
+    libqmiservices \
+    libqmi
+
+PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libtime_genoff
+
+PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/wileyfox/crackling/crackling-vendor-blobs.mk)
