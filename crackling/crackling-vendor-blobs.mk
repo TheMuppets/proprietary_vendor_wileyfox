@@ -201,6 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/wileyfox/crackling/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/wileyfox/crackling/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
