@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libmm-abl
+    libmm-abl \
+    libmm-disp-apis
 
 PRODUCT_PACKAGES += \
     libdiag \

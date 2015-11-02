@@ -207,6 +207,12 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/wileyfox/kipper/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
