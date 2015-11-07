@@ -27,9 +27,6 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    com.qrd.wappush
-
-PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 
@@ -53,8 +50,5 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtime_genoff
-
-PRODUCT_PACKAGES += \
-    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/wileyfox/kipper/kipper-vendor-blobs.mk)
