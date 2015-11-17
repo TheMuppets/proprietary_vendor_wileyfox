@@ -42,13 +42,16 @@ PRODUCT_PACKAGES += \
     libdiag \
     libdsutils \
     libidl \
-    libmdmdetect \
-    libqcci_legacy \
+    libqmi_cci \
     libqmi_client_qmux \
+    libqmi_encdec \
     libqmiservices \
-    libqmi
+    libsmemlog
 
 PRODUCT_PACKAGES += \
     libtime_genoff
+
+PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/wileyfox/kipper/kipper-vendor-blobs.mk)
