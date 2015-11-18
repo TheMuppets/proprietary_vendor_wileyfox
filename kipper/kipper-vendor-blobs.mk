@@ -222,7 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/wileyfox/kipper/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/wileyfox/kipper/proprietary/bin/perfd:system/bin/perfd \
+    vendor/wileyfox/kipper/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/wileyfox/kipper/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
