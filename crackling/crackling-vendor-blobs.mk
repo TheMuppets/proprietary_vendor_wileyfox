@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/wileyfox/crackling/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/wileyfox/crackling/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
@@ -136,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
@@ -147,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -187,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/wileyfox/crackling/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/wileyfox/crackling/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -197,8 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/wileyfox/crackling/proprietary/bin/perfd:system/bin/perfd \
+    vendor/wileyfox/crackling/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/wileyfox/crackling/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -246,7 +241,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/wileyfox/crackling/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/wileyfox/crackling/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
