@@ -209,20 +209,22 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/wileyfox/crackling/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/crackling/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/wileyfox/crackling/proprietary/bin/qmuxd:system/bin/qmuxd \

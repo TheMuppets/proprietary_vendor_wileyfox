@@ -193,23 +193,10 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libqcci_legacy
+LOCAL_MODULE := libqmi_cci
 LOCAL_MODULE_OWNER := wileyfox
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqcci_legacy.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqcci_legacy.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
-LOCAL_MODULE_PATH_32 := $(2ND_TARGET_OUT_VENDOR_SHARED_LIBRARIES)
-LOCAL_MULTILIB := both
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libqmi
-LOCAL_MODULE_OWNER := wileyfox
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi.so
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi_cci.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi_cci.so
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
