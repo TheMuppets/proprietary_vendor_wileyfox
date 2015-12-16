@@ -218,11 +218,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/wileyfox/crackling/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib64/libjni_livedisplay_qdcm.so:system/vendor/lib64/libjni_livedisplay_qdcm.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libjni_livedisplay_qdcm.so:system/vendor/lib/libjni_livedisplay_qdcm.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libjni_livedisplay.so:system/vendor/lib/libjni_livedisplay.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
