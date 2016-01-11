@@ -257,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
     vendor/wileyfox/crackling/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/crackling/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/wileyfox/crackling/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
