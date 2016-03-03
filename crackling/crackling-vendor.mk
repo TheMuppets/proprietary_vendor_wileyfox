@@ -16,9 +16,6 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
