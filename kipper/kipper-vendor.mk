@@ -19,9 +19,6 @@ PRODUCT_PACKAGES += \
     cktnvtool
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
