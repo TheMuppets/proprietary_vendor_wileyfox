@@ -20,6 +20,8 @@ ifeq ($(TARGET_DEVICE),porridge)
 ifeq ($(MTKPATH),)
 
 # Proprietary Modules go here
+
+ifneq ($(TARGET_BUILD_VARIANT),user)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MTKLogger
 LOCAL_MODULE_OWNER := wileyfox
@@ -29,6 +31,7 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
+endif
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YGPS

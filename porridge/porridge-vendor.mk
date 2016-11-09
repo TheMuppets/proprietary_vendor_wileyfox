@@ -16,7 +16,7 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    MTKLogger     YGPS
+    YGPS
 
 # Proprietary dependencies go here
 
