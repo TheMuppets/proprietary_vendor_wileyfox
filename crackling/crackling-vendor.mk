@@ -42,6 +42,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wileyfox/crackling/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wileyfox/crackling/proprietary/bin/vm_bms:system/bin/vm_bms \
+    vendor/wileyfox/crackling/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/wileyfox/crackling/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/wileyfox/crackling/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/wileyfox/crackling/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/wileyfox/crackling/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/wileyfox/crackling/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/wileyfox/crackling/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/wileyfox/crackling/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
