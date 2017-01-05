@@ -215,6 +215,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
