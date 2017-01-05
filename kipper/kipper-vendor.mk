@@ -247,9 +247,9 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
