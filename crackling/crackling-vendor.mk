@@ -51,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/wileyfox/crackling/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/wileyfox/crackling/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/wileyfox/crackling/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/crackling/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
@@ -64,17 +63,21 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
@@ -84,10 +87,13 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
@@ -146,17 +152,21 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -196,10 +206,13 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
@@ -217,13 +230,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libwpa_qmi_eap_proxy \
-    libdiag \
-    libdsutils \
-    libidl \
-    libmdmdetect \
-    libqmi_cci \
-    libqmi_client_qmux \
-    libqmiservices \
     libtime_genoff \
     shutdownlistener \
     TimeService \
