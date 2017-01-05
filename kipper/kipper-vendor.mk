@@ -72,31 +72,14 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/kipper/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/wileyfox/kipper/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
@@ -112,12 +95,9 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
@@ -130,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -146,11 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
@@ -163,19 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libRBEGL_adreno.so:system/vendor/lib/egl/libRBEGL_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -187,12 +148,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_spirit_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_spirit_camera.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_spirit.so:system/vendor/lib/libactuator_rohm_bu64243gwz_spirit.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libchromatix_imx220_common.so:system/vendor/lib/libchromatix_imx220_common.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libchromatix_imx220_default_video.so:system/vendor/lib/libchromatix_imx220_default_video.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libchromatix_imx220_hfr_120fps.so:system/vendor/lib/libchromatix_imx220_hfr_120fps.so \
@@ -233,14 +190,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
@@ -280,7 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -290,11 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
@@ -332,3 +280,6 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     cktnvtool
 endif
+
+$(call inherit-product, vendor/qcom/binaries/msm8916-32/graphics/graphics-vendor.mk)
+$(call inherit-product, vendor/qcom/binaries/msm8916-64/graphics/graphics-vendor.mk)
