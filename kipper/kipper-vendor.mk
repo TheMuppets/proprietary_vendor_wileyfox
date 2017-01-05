@@ -27,11 +27,8 @@ ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/wileyfox/kipper/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/wileyfox/kipper/proprietary/bin/cnd:system/bin/cnd \
-    vendor/wileyfox/kipper/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/wileyfox/kipper/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/wileyfox/kipper/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/wileyfox/kipper/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/wileyfox/kipper/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/wileyfox/kipper/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/wileyfox/kipper/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
@@ -42,35 +39,17 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/wileyfox/kipper/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wileyfox/kipper/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/wileyfox/kipper/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/wileyfox/kipper/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/wileyfox/kipper/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/wileyfox/kipper/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/wileyfox/kipper/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/wileyfox/kipper/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/wileyfox/kipper/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/wileyfox/kipper/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/wileyfox/kipper/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/wileyfox/kipper/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/wileyfox/kipper/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/wileyfox/kipper/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/wileyfox/kipper/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/wileyfox/kipper/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/wileyfox/kipper/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/wileyfox/kipper/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/wileyfox/kipper/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/wileyfox/kipper/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/wileyfox/kipper/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/wileyfox/kipper/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/wileyfox/kipper/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/wileyfox/kipper/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
@@ -81,14 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -98,9 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libjni_livedisplay.so:system/vendor/lib64/libjni_livedisplay.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
@@ -109,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
@@ -120,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
@@ -131,11 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
@@ -178,13 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so:system/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_video_nonHD.so:system/vendor/lib/libchromatix_ov8858_q8v19w_video_nonHD.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -195,9 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -229,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -242,16 +195,11 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/wileyfox/kipper/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -272,9 +220,6 @@ PRODUCT_PACKAGES += \
     libsmemlog \
     shutdownlistener \
     TimeService \
-    CNEService \
-    com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook \
