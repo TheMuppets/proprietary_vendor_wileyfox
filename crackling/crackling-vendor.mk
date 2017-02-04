@@ -1,4 +1,5 @@
-# Copyright (C) 2017 The CyanogenMod Project
+# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -35,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/wileyfox/crackling/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/wileyfox/crackling/proprietary/bin/radish:system/bin/radish \
-    vendor/wileyfox/crackling/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/wileyfox/crackling/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/wileyfox/crackling/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/wileyfox/crackling/proprietary/bin/vm_bms:system/bin/vm_bms \
