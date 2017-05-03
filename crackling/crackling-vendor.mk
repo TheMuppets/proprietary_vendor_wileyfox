@@ -49,11 +49,10 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/crackling/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/wileyfox/crackling/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/wileyfox/crackling/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/wileyfox/crackling/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/wileyfox/crackling/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/wileyfox/crackling/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wileyfox/crackling/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -79,7 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -198,8 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/wileyfox/crackling/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -271,6 +269,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
@@ -279,6 +278,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/wileyfox/crackling/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/wileyfox/crackling/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
