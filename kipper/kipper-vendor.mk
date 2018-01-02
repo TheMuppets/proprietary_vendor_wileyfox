@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/wileyfox/kipper/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/wileyfox/kipper/proprietary/lib64/libprotobuf-cpp-preo.so:system/lib64/libprotobuf-cpp-preo.so \
     vendor/wileyfox/kipper/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/wileyfox/kipper/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     vendor/wileyfox/kipper/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -242,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/wileyfox/kipper/proprietary/vendor/lib64/libprotobuf-cpp-lpro.so:system/vendor/lib64/libprotobuf-cpp-lpro.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/wileyfox/kipper/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
